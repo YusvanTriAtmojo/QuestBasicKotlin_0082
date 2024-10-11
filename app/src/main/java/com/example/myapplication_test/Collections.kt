@@ -88,6 +88,10 @@ fun ContohMap() {
     shape["Rectangle"] = 4
     println(shape)
 
+    // Menghapus dari dari Map Mutable
+    shape.remove("Circle")
+    println(shape)
+
 }
 
 
