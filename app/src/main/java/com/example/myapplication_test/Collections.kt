@@ -96,6 +96,10 @@ fun ContohMap() {
     shape["Square"] = 5
     println(shape)
 
+    // Map Read-Only
+    val shapesLocked: Map<String, Int> = shape
+    println(shapesLocked)
+
 }
 
 
